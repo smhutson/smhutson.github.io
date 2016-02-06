@@ -2,14 +2,37 @@ $(document).ready(function(){
   preventBackUp()
   $(document).keypress(typeKey)
   setInterval(function(){$("#cursor").toggle()}, 600)
-
 })
 
+function setCommands(){
+  return {
+    "ls": listAll,
+    "run": runProgram,
+    "quit": quit
+  }
+}
+
+function downOneLine(){}
+
+var listAll = function(){
+  $("table").append("<tr><td>resume.py</td><td>resume</td></tr>")
+  console.log($('#test'))
+}
+
+var runProgram = function(name){
+  $("table").append("<tr><td>test</td><td>resume</td></tr>")
+
+  return "runProgram"
+}
+
+var quit = function(){
+  return "quit"
+}
 
 var typeKey = function(event){
-  // console.log($(".input").text(5))
-  if (event.which == 127 || event.which == 8){
-    event.preventDefault()
+  console.log(event.which)
+  if (event.which == 13){
+    interpret()
   }else {
     $(".input").append(String.fromCharCode(event.which))
   }
@@ -26,3 +49,12 @@ var preventBackUp = function(){
     }
   });
 }
+
+var interpret = function(){
+  var input = $(".input").html()
+  console.log("input is "+input)
+  console.log(commands[input]())
+  downOneLine()
+}
+
+var commands = setCommands()
