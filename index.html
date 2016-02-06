@@ -1,9 +1,9 @@
 <html>
 <head>
   <title>S.M.Hutson</title>
-  <link rel=stylesheet type=text/css href="{{ url_for('static', filename='styling.css') }}">
-  <script src="{{ url_for('static', filename='jquery.min.js')}}"></script>
-  <script src="{{ url_for('static', filename='application.js')}}"></script>
+  <link rel=stylesheet type=text/css href="static/styling.css">
+  <script src="static/jquery.min.js"></script>
+  <script src="static/application.js"></script>
 </head>
 <body>
   <div id="terminal">
@@ -11,6 +11,14 @@
    <tr><td>START HERE :> </td>
    <td><span class="input"></span><span id="cursor">&#9613</span></td>
    </table>
+  </div>
+  <div id="commands">
+    <h3>Basic Commands</h3>
+    <ul>
+      <li>{ ls : list all programs }</li>
+      <li>{ run < programName > : run program }</li>
+      <li>{ quit : stop whatever program is running }</li>
+    <ul>
   </div>
 </body>
 </html>

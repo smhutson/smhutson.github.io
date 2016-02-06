@@ -1,12 +1,13 @@
 #terminal {
-  width: 70%;
-  height: 40%;
+  width: 90%;
+  height: 50%;
   background-color: #0f0f0f;
   color: #00ff00;
   padding: 1em;
   font-family: courier;
   margin: 0px auto;
-  /*line-height: 2em;*/
+  overflow: scroll;
+  border: 1em solid #888888;
 }
 
 #cursor {
@@ -19,4 +20,11 @@ table {
 
 td {
   height: 2em;
+}
+
+body {
+  max-width: 800px;
+  margin: 0px auto;
+  font-family: courier;
+  background-color: #d8d8d8
 }
