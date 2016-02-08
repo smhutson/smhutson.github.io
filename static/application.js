@@ -8,20 +8,21 @@ function setCommands(){
   return {
     "ls": listAll,
     "run": runProgram,
-    "quit": quit
+    "quit": quit,
+    "read": read
   }
 }
 
 function downOneLine(){}
 
 var listAll = function(){
-  $("table").append("<tr><td>resume.py</td><td>resume</td></tr>")
+  $("#reader-table").prepend("<tr><td>resume.py</td><td>resume</td></tr>")
   console.log($('#test'))
 }
 
 var runProgram = function(name){
-  $("table").append("<tr><td>test</td><td>resume</td></tr>")
-
+  $("#reader-table").prepend("<tr><td>test</td><td>resume</td></tr>")
+  console.log(name)
   return "runProgram"
 }
 
@@ -34,7 +35,8 @@ var typeKey = function(event){
   if (event.which == 13){
     interpret()
   }else {
-    $(".input").append(String.fromCharCode(event.which))
+    $(".input").append
+(String.fromCharCode(event.which))
   }
 }
 var preventBackUp = function(){
@@ -50,10 +52,18 @@ var preventBackUp = function(){
   });
 }
 
+
+var read = function(){}
+
 var interpret = function(){
-  var input = $(".input").html()
-  console.log("input is "+input)
-  console.log(commands[input]())
+  var input = ($(".input").html()).split(" ")
+  var command = input[0]
+  // console.log("input is "+command)
+  try {
+    commands[command](input[1])
+  } catch (e){
+    $("#reader-table").prepend("<tr><td>"+ input +"</td><td>Is not a command</td></tr>")
+  }
   downOneLine()
 }
 
