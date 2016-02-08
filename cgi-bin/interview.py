@@ -1,6 +1,6 @@
 import resume.py
 
-class Dropbox:
+class Employer:
   def __init__(self, employees=[]):
     self.employees = employees
 
@@ -39,5 +39,5 @@ class Dropbox:
         print breaker
       elif project_id != "finished":
         print "I'm sorry, I do not understand. Please try again."
-
-dropbox.interview(stephanie)
+employer = Employer()
+employer.interview(stephanie)

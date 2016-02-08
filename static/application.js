@@ -18,6 +18,7 @@ function downOneLine(){}
 var listAll = function(){
   $("#reader-table").prepend("<tr><td>interview.py</td><td>: A walk through a few potential interview questions </td></tr>")
   $("#reader-table").prepend("<tr><td>resume.py</td><td>: A copy of Stephanie Hutson's resume </td></tr>")
+  $("#reader-table").prepend("<tr><td>contact.txt</td><td>: How to get in contact </td></tr>")
 }
 
 var runProgram = function(name){
@@ -65,6 +66,7 @@ var readFile = function(name){
   $.ajax({
     url: "cgi-bin/"+name,
     success: function(response){
+      response = response.replace(/\r?\n/g, '<br />').replace(/\s\s/g,'<span id= "hidden">__</span>')
       $("#reader-table").prepend("<tr><td>"+ name +"</td><td>"+response+"</td></tr>")
     },
     fail: function(response){
