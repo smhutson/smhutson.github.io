@@ -7,6 +7,7 @@
 ###############
 
 import webbrowser
+import cgi
 
 
 class Person:
@@ -97,5 +98,4 @@ train_all.purpose("Since 2001, I've been logging my workouts on an excel spreads
 ########
 
 stephanie.display()
-# dropbox.interview(stephanie)
 

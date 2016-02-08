@@ -65,6 +65,7 @@ var readFile = function(name){
   $.ajax({
     url: "cgi-bin/"+name,
     success: function(response){
+      response = response.replace(/\r?\n/g, '<br />').replace(/\s\s/g,'<span id= "hidden">__</span>')
       $("#reader-table").prepend("<tr><td>"+ name +"</td><td>"+response+"</td></tr>")
     },
     fail: function(response){

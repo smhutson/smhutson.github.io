@@ -39,5 +39,5 @@ class Employer:
         print breaker
       elif project_id != "finished":
         print "I'm sorry, I do not understand. Please try again."
-employer = Employer()
+
 employer.interview(stephanie)
