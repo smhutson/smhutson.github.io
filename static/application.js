@@ -8,7 +8,7 @@ function setCommands(){
   return {
     "ls": listAll,
     "run": runProgram,
-    "quit": quit,
+    "clear": clear,
     "read": read
   }
 }
@@ -26,8 +26,8 @@ var runProgram = function(name){
   return "runProgram"
 }
 
-var quit = function(){
-  return "quit"
+var clear = function(){
+  $("#reader-table").empty()
 }
 
 
