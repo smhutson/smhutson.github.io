@@ -1,0 +1,41 @@
+Stephanie Hutson
+stephanie.m.hutson@gmail.com
+____________________
+SKILLS:
+- Python
+- Ruby
+- JavaScript
+- R
+- MVC
+- REST
+- data
+- Object-Oriented Programming
+____________________
+EDUCATION:
+- Dev Bootcamp - 2015 - Software Development
+- Piedmont Virginia Community College - 2014 - Computer Science
+- University of Virginia - 2012 - Environmental Sciences & Archaeology
+- University of Edinburgh - 2011 - GeoSciences
+____________________
+PROJECTS:
+* Train-All
+--- a place to log your workouts and visualize your progress
+--- Sinatra, Google Charts, jquery
+--- hosted at: http://train-all.herokuapp.com
+--- Source Code: http://github.com/triathloncodes/training-log
+* Pitch It
+--- an entrepreneur's first opportunity to pitch and get feedback
+--- rails, rails API, react, react native, twitter API, CORS, REST
+--- hosted at: http://gopitchit.herokuapp.com
+--- Source Code: http://github.com/thepitch
+* CO2 Emissions
+--- a first look at R, and an exploration of the global CO2 emission rates
+per capita
+--- R, shiny
+--- Source Code: https://github.com/TriathlonCodes/Beginning-R-CO2-data-exp
+loration
+* Pixie Report
+--- web analytics site connecting non-tech people with thier site visitors
+--- rails, api, d3.js
+--- hosted at: http://pixiereport.herokuapp.com
+--- Source Code: http://github.com/pixieanalytics
