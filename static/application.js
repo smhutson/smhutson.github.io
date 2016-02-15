@@ -22,7 +22,11 @@ var listAll = function(){
 }
 
 var runProgram = function(name){
-  $("#reader-table").prepend("<tr><td>test</td><td>resume</td></tr>")
+  var parsed = name.replace('.py', '_output.txt')
+  $.get("cgi-bin/"+parsed, function(response){
+      response = response.replace(/\r?\n/g, '<br />').replace(/\s\s/g,'<span id= "hidden">&nbsp&nbsp</span>')
+      $("#reader-table").prepend("<tr><td>"+ name +"</td><td>"+response+"</td></tr>")
+  })
   return "runProgram"
 }
 
@@ -81,6 +85,7 @@ var interpret = function(){
   try {
     commands[command](input[1])
   } catch (e){
+    console.log(e)
     $("#reader-table").prepend("<tr><td>"+ input[0] +"</td><td>: Command not found</td></tr>")
   }
   $(".input").html("")
