@@ -1,0 +1,15 @@
+Why should we consider you?
+
+  I started prgramming as a pre-teen, and after a decade of toying - laced into a life of science, sport, and entrepreneurship - and a year and a half of focused study, I now find myself able to build applications from the ground up and as excited as ever to learn, grown, and build. I have a passion for working with data through data visualization and backend data management. I love taking a pile of information, be it from a mongoDB, a CSV, or a relational database, and turn it into something meaningful.
+
+My background in environmental science lends a unique set of skills and understanding about the physical world, while my experience as a small business owner and in anthropology/archaeology helps me understand clients' needs, and the human aspect of an application.
+____________________
+How did you come up with Pixie Report?
+
+  After writing a few small web applications, most notably my training log app and an art portfolio for my sister, I decided I wanted to create an easy to plug in analytics application that required little to no learning of a new technology. Especially with my sister, who is not technical, my goal was to make it as user friendly as possible.
+____________________
+And what about Train-All?
+
+  Since 2001, I've been logging my workouts on an excel spreadsheet. But switching computers and moving around from place to place made it annoying to keep emailing the document back and forth to myself. So, I made it into a web application. I set it up so I, and other users, could upload their own excel spreadsheets into the database for their records, and then to visualize, sort, and track their yearly and daily workouts and races, and personally use it nearly everyday.
+____________________
+
