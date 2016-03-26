@@ -1,6 +1,6 @@
 #terminal {
   width: 90%;
-  height: 50%;
+  height: 60%;
   background-color: #0f0f0f;
   color: #00ff00;
   padding: 1em;
@@ -8,6 +8,11 @@
   margin: 0px auto;
   overflow: scroll;
   border: 1em solid #888888;
+}
+
+#basic-commands {
+  /*width: 60%;*/
+  margin-left: 20%;
 }
 
 #terminal #hidden {
