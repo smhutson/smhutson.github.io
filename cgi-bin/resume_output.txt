@@ -29,13 +29,23 @@ PROJECTS:
 --- hosted at: http://gopitchit.herokuapp.com
 --- Source Code: http://github.com/thepitch
 * CO2 Emissions
---- a first look at R, and an exploration of the global CO2 emission rates
-per capita
+--- a first look at R, and an exploration of the global CO2 emission rates per capita
 --- R, shiny
---- Source Code: https://github.com/TriathlonCodes/Beginning-R-CO2-data-exp
-loration
+--- Source Code: https://github.com/TriathlonCodes/Beginning-R-CO2-data-exploration
 * Pixie Report
 --- web analytics site connecting non-tech people with thier site visitors
 --- rails, api, d3.js
 --- hosted at: http://pixiereport.herokuapp.com
 --- Source Code: http://github.com/pixieanalytics
+____________________
+EXPERIENCE:
+* Shotput
+--- Backend Developer : 2016-Present
+--- technologies:
+--- --- Flask
+--- --- SQLAlchemy
+--- --- supervisor
+--- --- AngularJS
+--- responsibilities:
+--- --- Write, maintain, and handle endpoints for the API.
+--- --- Work with sales team to meet clientneeds
