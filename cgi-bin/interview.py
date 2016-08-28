@@ -7,13 +7,13 @@ class Employer:
 
   def interview(self, employee):
     message = '''
-    Why should we consider you? \n {breaker}
-    \t employee.personal_statement \n
+    Why should we consider you? \n
+    \t {} \n
     How did you come up with {}?\n\t {} \n
     And what about {}?\n\t{}\n
     '''.format(employee.personal_statement, employee.projects[-1].name,
-               employee.projects[-1].why, employee.projects[0].name,
-               employee.projects[0].why, breaker=breaker)
+               employee.projects[-1].why, employee.projects[1].name,
+               employee.projects[1].why)
     print message
     hired = raw_input("Do you want to proceeed with the hiring process?"
                       "(Y/N): ")
