@@ -22,10 +22,6 @@
   font-weight: bold;
 }
 
-#exit {
-  display: none;
-}
-
 table {
   color: #00ff00;
 }
@@ -39,4 +35,18 @@ body {
   margin: 0px auto;
   font-family: courier;
   background-color: #d8d8d8;
+}
+
+/*snake*/
+
+#exit, #snake {
+  display: none;
+}
+
+.blue {
+  color: lightblue;
+}
+
+.red {
+  color: red;
 }

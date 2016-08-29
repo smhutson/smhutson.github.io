@@ -99,14 +99,15 @@ var interpret = function(){
 
 var playSnake = function() {
   clear()
-  console.log("We're going to play snake now")
   $('#exit').show()
+  snake.setUp()
 }
 
 var exitSnake = function() {
   clear()
   $('#').append('<li id="exit">{ exit : Exit out of Snake }</li>')
   $('#exit').hide()
+  snake.tearDown()
 }
 
 var commands = setCommands()
