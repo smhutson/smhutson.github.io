@@ -19,6 +19,7 @@ var listAll = function(){
   $("#reader-table").prepend("<tr><td>interview.py</td><td>: A walk through a few potential interview questions </td></tr>")
   $("#reader-table").prepend("<tr><td>resume.py</td><td>: A copy of Stephanie Hutson's resume </td></tr>")
   $("#reader-table").prepend("<tr><td>contact.txt</td><td>: How to get in contact </td></tr>")
+  $("#reader-table").prepend("<tr><td>projects.txt</td><td>: A few projects that Stephanie has worked on</td></tr>")
 }
 
 var runProgram = function(name){

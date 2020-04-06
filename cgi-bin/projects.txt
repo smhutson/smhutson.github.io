@@ -1,0 +1,35 @@
+<h2>PROJECTS:<h2>
+
+2020:
+ - <b>Sustainable Money</b> - A blog looking at the combined nature of climate change/environmental sustainability and economics.
+  -- Hosted at: <a href='http://sustainable.money'>sustainable.money</a>
+
+- <b>We're Still Open</b> - A project designed to allow businesses to indicate their opening status during the COVID-19 shutdowns.
+  -- Flask/React/Mapbox
+  -- Github: <a href="https://github.com/stephaniemhutson/werestillopen">https://github.com/stephaniemhutson/werestillopen</a>
+
+2019:
+- <b>Geographical Area restructuring</b> - Update the concept of geographical areas and regions for the company from one where marketing and service were aligned to the same borders to one where they could act and grow independently of each other
+  -- Company: Honor Technology
+  -- Lead a team with two other engineers to ship on time and without major issue.
+  -- MySQL, Python, project planning
+
+2017:
+- <b>Salesforce API ETL Job</b> - Create a flexible Salesforce etl module which allowed the sales and marketing teams to update their workflows without disruption in the data flow to our internal databases.
+ -- Company: Honor Technology
+ -- Worked independently to solve a cross team problem
+ -- MySQL, Pandas, Python, SalesforceQL, Salesforce API
+
+2016:
+- <b>Shotput Box Packing Algorithm</b> - A solution to the 3-d bin pack problem that fit the needs of a fulfillment company to determine which boxes to package goods into.
+  -- Company: Shotput Inc.
+  -- Python
+  -- Github: <a href="https://github.com/stephaniemhutson/BoxPackingAPI">https://github.com/stephaniemhutson/BoxPackingAPI</a>
+
+2015:
+- <b>Pixie Report</b> - a app built to to track site views
+  -- Note: put on heroku in 2015 and you can still log in, but enough may have deprecated in that time that I'm not sure if it's fully functional anymore.
+  -- Rails, D3.js
+  -- Link: <a href="http://pixiereport.herokuapp.com/">pixiereport.herokuapp.com/</a>
+  -- Github: <a href="http://github.com/pixieanalytics">http://github.com/pixieanalytics</a>
+  -- Demo login: demo@abc.com password: password
