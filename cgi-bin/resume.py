@@ -97,14 +97,34 @@ univeristy_of_edinburgh = Education("University of Edinburgh", 2011, "GeoScience
 
 ### Experience
 
-shotput = Experience("Shotput", [2016, "Present"], "Backend Developer",
-                        {"technologies": ["Flask", "SQLAlchemy", "supervisor",
-                                          "AngularJS"],
-                         "responsibilities": [("Write, maintain, and handle "
-                                               "endpoints for the API."),("Work"
-                                               " with sales team to meet client"
-                                               "needs")]
-                        })
+shotput = Experience(
+  "Shotput",
+  [2016, 2016],
+  "Backend Developer",
+  {
+    "technologies": [
+      "Flask", "SQLAlchemy", "supervisor", "AngularJS"
+    ],
+    "responsibilities": [
+      ("Write, maintain, and handle endpoints for the API."),
+      ("Work with sales team to meet client needs")
+    ]
+  })
+
+honor = Experience(
+  "Honor",
+  [2016, 2019],
+  "Sr. Software Engineer",
+  {
+    "technologies": [
+      "Flask", "Pandas/ETL", "Apache Thrift", "React", "AWS"
+    ],
+    "responsibilities": [
+      "Lead small teams to develop new products, working with designers and PMs",
+      "Act as a liaison between the data and the product team",
+      "Write, maintain, review and plan major product features."
+    ]
+  })
 
 ### The Portfolio
 
@@ -116,22 +136,17 @@ stephanie = Person("Stephanie Hutson", "stephanie.m.hutson@gmail.com",
   ["Python", "Ruby", "JavaScript", "R", "MVC", "REST", "data",
   "Object-Oriented Programming"],
   [dev_bootcamp, pvcc, univeristy_of_virginia, univeristy_of_edinburgh],
-  [train_all, pitch_it, co2_emissions, pixie_report], experience=[shotput])
+  [train_all, pitch_it, co2_emissions, pixie_report], experience=[honor, shotput])
 
 
 #### The Meat of it all
 
-stephanie.personal_statement=("I started prgramming as a pre-teen, and after a "
-  "decade of toying - laced into a life of science, sport, and entrepreneurship"
-  " - and a year and a half of focused study, I now find myself able to build "
-  "applications from the ground up and as excited as ever to learn, grown, and "
-  "build. I have a passion for working with data through data visualization and"
-  " backend data management. I love taking a pile of information, be it from a"
-  " mongoDB, a CSV, or a relational database, and turn it into something "
-  "meaningful. \n\nMy background in environmental science lends a unique set "
-  "of skills and understanding about the physical world, while my experience as"
-  " a small business owner and in anthropology/archaeology helps me understand"
-  " clients' needs, and the human aspect of an application.")
+stephanie.personal_statement = """
+I got my degree in environmental science and after working for the Virginia department of Environmental Quality made an opportunistic career change into Software Engineering. I remain passionate about reducing anthropogenic carbon emissions.
+I've got experience developing in small teams and over the last several years I have grown into a senior software engineer working with individuals who are passionate about not only producing high quality code, but also remaining empathetic to the individuals and groups the software serves. I now intend to balance the knowledge I gained from my formal education with the practical skills I've gained in the workforce to make a lasting impact on sustainability.
+In my own time I have put significant effort into researching the economically viable ways to make an impact on climate change. I think it's important to not only consider what individuals can do on a personal level, but also how to update the underlying infrastructure in a way that is sustainable not just for the environment but for the global economy.
+If you ask any of my previous employers they will say I am quick to learn, hard working, and passionate. I am driven to keep growing as an individual and find energy in helping others achieve their own success. I am looking for a small team that shares my passion to provide an impactful solution to climate change.
+"""
 
 pixie_report.purpose("After writing a few small web applications, most notably my training log app and an art portfolio for my sister, I decided I wanted to create an easy to plug in analytics application that required little to no learning of a new technology. Especially with my sister, who is not technical, my goal was to make it as user friendly as possible.")
 train_all.purpose("Since 2001, I've been logging my workouts on an excel spreadsheet. But switching computers and moving around from place to place made it annoying to keep emailing the document back and forth to myself. So, I made it into a web application. I set it up so I, and other users, could upload their own excel spreadsheets into the database for their records, and then to visualize, sort, and track their yearly and daily workouts and races, and personally use it nearly everyday.")

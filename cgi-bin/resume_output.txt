@@ -1,5 +1,6 @@
 Stephanie Hutson
 stephanie.m.hutson@gmail.com
+Dated: 4/6/2020
 ____________________
 SKILLS:
 - Python
@@ -39,8 +40,20 @@ PROJECTS:
 --- Source Code: http://github.com/pixieanalytics
 ____________________
 EXPERIENCE:
+* Honor
+--- Sr. Software Engineer : 2016-2019
+--- technologies:
+--- --- Flask
+--- --- Pandas/ETL
+--- --- Apache Thrift
+--- --- React
+--- --- AWS
+--- responsibilities:
+--- --- Lead small teams to develop new products, working with designers and PMs
+--- --- Act as a liaison between the data and the product team
+--- --- Write, maintain, review and plan major product features.
 * Shotput
---- Backend Developer : 2016-Present
+--- Backend Developer : 2016-2016
 --- technologies:
 --- --- Flask
 --- --- SQLAlchemy

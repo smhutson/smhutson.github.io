@@ -1,8 +1,13 @@
 Why should we consider you?
 
-  I started prgramming as a pre-teen, and after a decade of toying - laced into a life of science, sport, and entrepreneurship - and a year and a half of focused study, I now find myself able to build applications from the ground up and as excited as ever to learn, grown, and build. I have a passion for working with data through data visualization and backend data management. I love taking a pile of information, be it from a mongoDB, a CSV, or a relational database, and turn it into something meaningful.
+I got my degree in environmental science and after working for the Virginia department of Environmental Quality made an opportunistic career change into Software Engineering. I remain passionate about reducing anthropogenic carbon emissions.
 
-My background in environmental science lends a unique set of skills and understanding about the physical world, while my experience as a small business owner and in anthropology/archaeology helps me understand clients' needs, and the human aspect of an application.
+I've got experience developing in small teams and over the last several years I have grown into a senior software engineer working with individuals who are passionate about not only producing high quality code, but also remaining empathetic to the individuals and groups the software serves. I now intend to balance the knowledge I gained from my formal education with the practical skills I've gained in the workforce to make a lasting impact on sustainability.
+
+In my own time I have put significant effort into researching the economically viable ways to make an impact on climate change. I think it's important to not only consider what individuals can do on a personal level, but also how to update the underlying infrastructure in a way that is sustainable not just for the environment but for the global economy.
+
+If you ask any of my previous employers they will say I am quick to learn, hard working, and passionate. I am driven to keep growing as an individual and find energy in helping others achieve their own success. I am looking for a small team that shares my passion to provide an impactful solution to climate change.
+
 ____________________
 How did you come up with Pixie Report?
 

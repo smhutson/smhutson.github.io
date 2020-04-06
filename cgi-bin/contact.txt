@@ -3,5 +3,5 @@
 Name:      Stephanie Hutson
 Email:     <a href='mailto:stephanie.m.hutson@gmail.com'>stephanie.m.hutson@gmail.com</a>
 Linkedin:  <a href="http://linkedin.com/in/stephaniemhutson">StephanieMHutson</a>
-Github:    <a href='http://github.com/triathloncodes'>TriathlonCodes</a>
+Github:    <a href='http://github.com/stephaniemhutson'>StephanieMHutson</a>
 Phone:     703-965-3602
