@@ -23,7 +23,9 @@ export const aboutMe: AboutMe = {
   institution: "University of California San Diego",
   // Note that links work in the description
   description:
-    "I'm a second-year <a href='https://economics.ucsd.edu/'>Economics</a> PhD student at UC San Diego. My fields are Environmental and Industrial Organization. In particular I am interested in the ",
+    `I'm a second-year <a href='https://economics.ucsd.edu/'>Economics</a> PhD student at
+    UC San Diego. My fields are Environmental and Industrial Organization. In particular
+    I am interested in how firms respond to and play a role in the green transition.`,
   email: "shutson@ucsd.edu",
   imageUrl:
     "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
