@@ -5,22 +5,26 @@ export interface Education {
   advisor?: string;
   thesis?: string;
   thesisUrl?: string;
+  notes?: string;
 }
 
 export const educationData: Education[] = [
   // If you don't want to show education, just make the array empty.
   {
-    year: "2021—Present",
-    institution: "Stanford University",
-    degree: "Ph.D. in Computer Science",
-    advisor: "Prof. Sarah Johnson",
+    year: "2023—Present",
+    institution: "University of California San Diego",
+    degree: "Ph.D. in Economics",
+    advisor: "Prof. Mark Jacobsen",
   },
   {
-    year: "2017—2021",
-    institution: "Massachusetts Institute of Technology",
-    degree: "B.S. in Computer Science and Mathematics",
-    thesis: "Algorithmic Approaches to Causal Discovery",
-    // Optional links to thesis
-    // thesisUrl: "https://dspace.mit.edu/handle/1721.1/149111"
+    year: "2022-2023",
+    institution: "University of North Carolina Chapel Hill",
+    degree: "Ph.D. in Economics",
+    notes: "(Transferred to UC San Diego in 2023)"
   },
+  {
+    year: "2008-2012",
+    institution: "University of Virginia",
+    degree: "BS Environmental Science"
+  }
 ];
