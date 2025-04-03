@@ -1,6 +1,6 @@
-import { Experience } from "@/data/experience";
+import { WorkExperience } from "@/data/experience";
 
-export function ExperienceEntry({ experience }: { experience: Experience }) {
+export function ExperienceEntry({ experience }: { experience: WorkExperience }) {
   return (
     <div className="grid grid-cols-4 gap-x-2">
       <span className="text-xs text-zinc-500 mt-1">{experience.date}</span>
