@@ -1,4 +1,4 @@
-export interface Experience {
+export interface WorkExperience {
   date: string;
   title: string;
   company: string;
@@ -8,23 +8,24 @@ export interface Experience {
   companyUrl?: string;
 }
 
-export const experienceData: Experience[] = [
+export const experienceData: WorkExperience[] = [
   {
-    date: "Summer 2023",
-    title: "Research Intern",
-    company: "DeepMind",
+    date: "2020-2022",
+    title: "Senior Software Engineer",
+    company: "Fuse Integration",
     description:
-      "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",
+      "Developed software technology to interface with communication hardware for the US Navy.",
+    // manager: "Elise Brown",
+    companyUrl: "https://fuseintegration.com",
   },
   {
-    date: "Summer 2022",
-    title: "Research Intern",
-    company: "Google Research",
+    date: "2016-2020",
+    title: "Senior Software and Data Engineer",
+    company: "Honor Technology",
     description:
-      "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",
+      "Developed production quality backend code, lead projects with 2-3 engineers and maintained the ETF server.",
+    // advisor: "Peter Wang",
+    companyUrl: "https://www.honorcare.com/",
   },
+
 ];

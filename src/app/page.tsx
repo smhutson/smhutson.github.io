@@ -4,8 +4,8 @@ import { PublicationEntry } from "@/components/publication-entry";
 import { publicationData } from "@/data/publication";
 import { ProfileSection } from "@/components/profile-section";
 import { aboutMe } from "@/data/aboutme";
-import { NewsEntry } from "@/components/news-entry";
-import { newsData } from "@/data/news";
+import { TeachingEntry } from "@/components/teaching-entry";
+import { teachingExperience } from "@/data/teaching";
 import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
 import { PortfolioEntry } from "@/components/portfolio-entry";
@@ -43,23 +43,6 @@ export default function Home() {
             {sectionOrder.map((sectionName) => {
               // Most of this is redundant... but in case it needs to be unique.
               switch (sectionName) {
-                case Section.News:
-                  return (
-                    newsData.length > 0 && (
-                      <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
-                          News
-                        </h2>
-                        <div className="space-y-12">
-                          {newsData.map((news, index) => (
-                            <div key={index}>
-                              <NewsEntry news={news} />
-                            </div>
-                          ))}
-                        </div>
-                      </section>
-                    )
-                  );
                 case Section.Education:
                   return (
                     educationData.length > 0 && (
@@ -70,6 +53,23 @@ export default function Home() {
                         <div className="space-y-12">
                           {educationData.map((education, index) => (
                             <EducationEntry key={index} education={education} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.TeachingExperience:
+                  return (
+                    teachingExperience.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                          Teaching Experience
+                        </h2>
+                        <div className="space-y-12">
+                          {teachingExperience.map((teaching, index) => (
+                            <div key={index}>
+                              <TeachingEntry teaching={teaching} />
+                            </div>
                           ))}
                         </div>
                       </section>
@@ -95,12 +95,12 @@ export default function Home() {
                       </section>
                     )
                   );
-                case Section.Experience:
+                case Section.WorkExperience:
                   return (
                     experienceData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Experience
+                          Work Experience
                         </h2>
                         <div className="space-y-12">
                           {experienceData.map((experience, index) => (
