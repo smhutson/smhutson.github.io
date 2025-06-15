@@ -8,5 +8,5 @@ export const customMetadata: CustomMetadata = {
   // title: "My Custom Title",
   // description: "My Custom Description",
   title: "Stephanie Hutson UCSD Economics",
-  description: "Stephanie HutsonUCSD Economics IO UC San Diego UVA Climate Change Environmental Graduate Student",
+  description: "Stephanie Hutson UCSD Economics IO UC San Diego UVA Climate Change Environmental Graduate Student",
 };
